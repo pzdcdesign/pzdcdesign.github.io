@@ -903,7 +903,7 @@ a {
   .section-screen1-header{
       display: flex;
       justify-content: flex-start;
-      margin-left: 5vh;
+      margin-left: -50vh;
   }
 }
 /*# sourceMappingURL=style.css.map */
