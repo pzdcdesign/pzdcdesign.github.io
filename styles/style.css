@@ -6,7 +6,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 html {
-  overflow-x: hiiden;
+  overflow-x: hidden;
   line-height: 1.15;
   /* 1 */
   -webkit-text-size-adjust: 100%;
@@ -19,8 +19,8 @@ html {
  * Remove the margin in all browsers.
  */
 body {
+  overflow-x: hidden;
   margin: 0;
-   overflow-x: hiiden;
 }
 
 /**
@@ -345,6 +345,11 @@ template {
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body{
+  overflow-x: hidden;
 }
 
 a {
@@ -707,5 +712,193 @@ a {
 
 .section-footer-nav-category__links_item a:hover {
   color: #d69449;
+}
+
+/* Adaptive Layout */
+
+@media screen and (max-width: 1210px) {
+  .section-screen2-content-steps-subtitle{
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .section-screen1-headercontent{
+    margin-left: -6vh;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .section-screen1-headercontent{
+    margin-left: -9vh;
+  }
+  .section-screen1-headercontent-subtitle{
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .section-screen1-headercontent{
+    margin-left: -11vh;
+  }
+
+  .section-screen2-content-steps-subtitle{
+    width: 700px;
+  }
+
+  .section-screen2-content-subinfo{
+    width: 700px;
+  }
+
+  .section-footer-logo{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .section-screen1-headercontent-title {
+    width: 640px;
+  }
+}
+
+@media screen and (max-width: 727px) {
+  body{
+    width: 100%;
+  }
+
+  .section-screen1 {
+    width: 720px;
+  }
+
+  .section-screen2-content-subinfo{
+    width: 500px;
+  }
+
+  .section-screen2-content-steps-subtitle{
+    width: 650px;
+    margin-left: 3vh;
+  }
+
+  .section-screen1-headercontent-subtitle{
+    width: 650px;
+  }
+}
+
+@media screen and (max-width: 710px){
+  .section-footer {
+    width: 700px;
+  }
+  .section-screen2-content-steps-subtitle{
+    width: 600px;
+  }
+  .section-footer-nav-category{
+    margin-left: -4vh;
+  }
+  .section-screen1-header{
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-screen1-header-nav{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .section-screen1-headercontent-title{
+    width: 600px;
+  }
+  .section-screen1-header-logo{
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 658px) {
+  .section-footer-nav-category{
+    width: 620px;
+    margin-left: -8vh;
+  }
+  .section-screen1-headercontent-title{
+    border: none;
+  }
+  .section-footer-nav-category{
+    margin-left: -12vh;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .section-screen2-content-steps-subtitle{
+    margin-left: 1vh;
+  }
+  .section-footer-nav-category{
+    margin-left: -20vh;
+    width: 550px;
+  }
+  .section-screen2-content-steps-subtitle{
+    width: 500px;
+  }
+  .section-screen1-headercontent-subtitle{
+    font-size: 15px;
+    width: 450px;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 518px) {
+  .section-footer-nav-category{
+    margin-left: -30vh;
+    width: 450px;
+  }
+  .section-screen1-header{
+    margin-left: -25vh;
+  }
+  .section-screen2-content-subinfo{
+    width: 450px;
+  }
+  .section-screen2-content-steps-subtitle{
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 444px){
+  .section-screen2-content-subinfo{
+    width: 350px;
+  }
+  .section-screen2-content-steps-subtitle{
+    width: 350px;
+  }
+  .section-footer{
+    margin-top: 0;
+  }
+  .section-screen1-headercontent-title{
+    font-size: 20px;
+    width: 400px;
+    margin-left: 10vh;
+  }
+  .section-footer-nav-category{
+    margin-left: -35vh;
+  }
+  .section-screen1-header{
+    margin-left: -35vh;
+  }
+  .section-screen1-headercontent-subtitle{
+    width: 400px;
+  }
+  .section-footer-nav-category__links{
+    font-size: 18px;
+  }
+  .section-footer-nav-category__mainlinks{
+    font-size: 18px;
+  }
+  .section-footer-nav-category__socnet{
+    font-size: 18px;
+  }
+  .section-footer-nav-category{
+    margin-left: -36vh;
+  }
+}
+
+@media screen and (max-width: 390px){
+  .section-footer{
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
