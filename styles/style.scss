@@ -1,0 +1,254 @@
+@import 'normalize.scss';
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.section-header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    &-logo{
+        transition: 0.5s;
+        display: flex;
+        font-family: 'Montserrat';
+        font-size: 38px;
+        font-weight: bolder;
+        color: #ffffff;
+    }
+    &-nav{
+        display: flex;
+        &__item{
+            transition: 0.3s;
+            margin-left: 25px;
+            font-family: 'Montserrat';
+            font-size: 20px;
+            padding: 15px;
+            font-weight: bolder;
+            border: 1.5px solid rgba(212, 71, 6, 0.849);
+            box-sizing: border-box;
+        }
+        &__item:hover{
+            background-color: rgba(212, 71, 6, 0.849);
+            transition: 0.3s;
+        }
+        &__detail{
+            transition: 0.3s;
+            margin-left: 25px;
+            font-family: 'Montserrat';
+            font-size: 20px;
+            padding: 15px;
+            font-weight: bolder;
+            border: 1.5px solid rgba(212, 71, 6, 0.849);
+            box-sizing: border-box;
+        }
+        &__detail:hover{
+            background-color: rgba(212, 71, 6, 0.849);
+            transition: 0.3s;
+        }
+    }
+}
+
+.section-screen1{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background: url('../images/i01_veb-dizayn-z-chogo-pochati-navchannya-novachkov_791.jpg') no-repeat;
+    background-size: cover;
+    &-header{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+        &-logo{
+            transition: 0.5s;
+            display: flex;
+            font-family: 'Montserrat';
+            font-size: 38px;
+            font-weight: bolder;
+            color: #ffffff;
+        }
+        &-nav{
+            display: flex;
+            &__item{
+                transition: 0.3s;
+                margin-left: 25px;
+                font-family: 'Montserrat';
+                font-size: 20px;
+                padding: 15px;
+                font-weight: bolder;
+                border: 1.5px solid rgba(212, 71, 6, 0.849);
+                box-sizing: border-box;
+            }
+            &__item:hover{
+                background-color: rgba(212, 71, 6, 0.849);
+                transition: 0.3s;
+            }
+            &__detail{
+                color: #ffffff;
+                cursor: pointer;
+                transition: 0.3s;
+                margin-left: 25px;
+                font-family: 'Montserrat';
+                font-size: 20px;
+                padding: 15px;
+                font-weight: bolder;
+                border: 1.5px solid rgba(212, 71, 6, 0.849);
+                box-sizing: border-box;
+            }
+            &__detail:hover{
+                background-color: rgba(212, 71, 6, 0.849);
+                transition: 0.3s;
+            }
+        }
+    }
+    &-headercontent{
+        display: flex;
+        flex-direction: column;
+        &-title{
+            padding: 15px;
+            display: flex;
+            margin-top: 25vh;
+            font-family: 'Montserrat';
+            font-size: 35px;
+            margin-left: 12vh;
+            width: 720px;
+            font-weight: bolder;
+            color: #ffffff;
+            border: 1.5px solid rgba(423, 236, 50, 0.569);
+            border-radius: 100px;
+        }
+        &-subtitle{
+            display: flex;
+            margin-top: 15px;
+            font-family: 'Montserrat';
+            font-size: 16px;
+            margin-left: 12vh;
+            width: 720px;
+            font-weight: bolder;
+            color: #ffffff;
+        }
+    }
+}
+
+.section-screen2{
+    display: flex;
+    flex-direction: column;
+    &-content{
+        flex-direction: column;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        &-info{
+            margin-top: 13vh;
+            font: 40px 'Montserrat';
+            font-weight: bolder;
+            color: #000000;
+        }
+        &-subinfo{
+            margin-top: 20px;
+            font-family: 'Montserrat';
+            color: #000000;
+            font-size: 20px;
+        }
+        &-steps{
+            margin-top: 60px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            &-title{
+                font-family: 'Montserrat';
+                color: #000000;
+                font-size: 40px;
+                font-weight: bolder;
+            }
+            &-subtitle{
+                font-family: 'Montserrat';
+                color: #000000;
+                font-size: 20px;
+                width: 1200px;
+            }
+        }
+    }
+}
+
+.section-footer{
+    display: flex;
+    justify-content: space-around;
+    background: #353535;
+    height: 235px;
+    margin-top: 22vh;
+    &-logo{
+        display: flex;
+        align-items: center;
+        font-family: 'Montserrat';
+        color: #ebd386;
+        padding: 20px;
+        font-size: 35px;
+    }
+    &-nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        &-category{
+            display: flex;
+            &__socnet{
+                font-family: 'Montserrat';
+                color: rgb(214, 148, 73);
+                font-size: 20px;
+                margin-left: 35px;
+                &_item a{
+                    color: #ffffff;
+                    font-family: 'Montserrat';
+                    font-size: 16px;
+                }
+                &_item a:hover{
+                    color: rgb(214, 148, 73);
+                }
+            }
+            &__mainlinks{
+                font-family: 'Montserrat';
+                color: rgb(214, 148, 73);
+                font-size: 20px;
+                margin-left: 35px;
+                &_item a{
+                    color: #ffffff;
+                    font-family: 'Montserrat';
+                    font-size: 16px;
+                }
+                &_item a:hover{
+                    color: rgb(214, 148, 73);
+                }
+                &_itempay a{
+                    color: #ffffff;
+                    font-family: 'Montserrat';
+                    font-size: 16px;
+                }
+                &_itempay a:hover{
+                    color: rgb(214, 148, 73);
+                }
+            }
+            &__links{
+                font-family: 'Montserrat';
+                color: rgb(214, 148, 73);
+                font-size: 20px;
+                margin-left: 35px;
+                &_item a{
+                    color: #ffffff;
+                    font-family: 'Montserrat';
+                    font-size: 16px;
+                }
+                &_item a:hover{
+                    color: rgb(214, 148, 73);
+                }
+            }
+        }
+    }
+}
