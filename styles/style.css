@@ -900,5 +900,8 @@ a {
   .section-footer{
     display: none;
   }
+  .section-header{
+      margin-left: -25vh;
+   }
 }
 /*# sourceMappingURL=style.css.map */
