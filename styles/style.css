@@ -900,8 +900,8 @@ a {
   .section-footer{
     display: none;
   }
-  .section-header{
-      margin-left: -50vh;
+  .section-screen1-header{
+      margin-left: -25vh;
    }
 }
 /*# sourceMappingURL=style.css.map */
